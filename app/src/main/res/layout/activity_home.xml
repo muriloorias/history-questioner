@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".view.Home.Home">
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="User email"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userEmail" />
+
+    <View
+        android:id="@+id/square1"
+        android:layout_width="340dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTheme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/titleTheme1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@id/square1"
+        app:layout_constraintTop_toTopOf="@id/square1" />
+
+    <ImageView
+        android:id="@+id/industrialRevolutionImage"
+        android:layout_width="308dp"
+        android:layout_height="208dp"
+        android:contentDescription="@string/imageDescription"
+        android:src="@drawable/firstinsutrial_revolution_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTheme1" />
+
+
+    <Button
+        android:id="@+id/btnReadFirstTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/read"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/industrialRevolutionImage" />
+    <WebView
+        android:id="@+id/textAboutThemeOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/answerTheQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answerTheQuestions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnReadFirstTheme"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

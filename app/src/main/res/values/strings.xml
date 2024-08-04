@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">History Questioner</string>
+    <string name="description">para continuar crie uma conta</string>
+    <string name="email">E-mail</string>
+    <string name="password">senha</string>
+    <string name="proced">entrar</string>
+    <string name="Login">já tem conta? Faça o login</string>
+    <string name="welcome">bem vindo de volta</string>
+    <string name="descriptionLogin">para continuar faça o login</string>
+    <string name="dontHaveACount">não tem uma conta? crie uma agora!</string>
+    <string name="logout">sair</string>
+    <string name="titleTheme1">1 revolução industrial</string>
+    <string name="read">ler</string>
+    <string name="answerTheQuestions">responder as questões</string>
+    <string name="imageDescription">primeira imagem sobre a revolução industrial</string>
+    <string name="firstQuestion">Quais foram os principais fatores que impulsionaram o início da Primeira Revolução Industrial na Inglaterra?</string>
+    <string name="firstRespost">a) Avanços na agricultura e no comércio internacional</string>
+    <string name="SecondRespost">b) Descoberta de novas fontes de energia, como o carvão</string>
+    <string name="sendRespost">enviar resposta</string>
+    <string name="returnToHome">voltar</string>
+</resources>
